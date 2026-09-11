@@ -1244,7 +1244,7 @@ def regularize(
             # No mmdb available, treat all as unconfirmed
             unconfirmed = fails
 
-        # For unconfirmed proxies, use online API services to get location info (fallback)
+        # For unconfirmed proxies, use online API services to get location info
         if unconfirmed:
             logger.info(f"Using online API services for {len(unconfirmed)} unconfirmed proxies")
 
